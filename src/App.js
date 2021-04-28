@@ -26,9 +26,9 @@ function App() {
       <footer>
         <h1>Reach out to me on:</h1>
         <div class="social-icons">
-          <img class="social-icon" src={insta} alt="Instagram" />
-          <img class="social-icon" src={fb} alt="Facebook"/>
-          <img class="social-icon" src={twitter} alt="Twitter" />
+          <a href="https://www.instagram.com/_fahim_faisal"><img class="social-icon" src={insta} alt="Instagram" /></a>
+          <a href="https://www.facebook.com/fahim.faisal.334"><img class="social-icon" src={fb} alt="Facebook"/></a>
+          <a href="https://twitter.com/ProgrammerFahim"><img class="social-icon" src={twitter} alt="Twitter" /></a>
         </div>
         <small>Copyright 2021</small>  
       </footer>
