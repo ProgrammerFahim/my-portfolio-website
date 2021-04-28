@@ -5,11 +5,11 @@ import logo from '../assets/portfolio-logo.png';
 const banner = (props) => {
 
     let passClass = '';
-    if(props.hide == 'hide')
+    if(props.hide === 'hide')
         passClass += 'hide';
 
     let imgClass = '';
-    if(props.hide == 'hide')
+    if(props.hide === 'hide')
         imgClass += 'mdrop';
 
     console.log(passClass + ' is the class');
