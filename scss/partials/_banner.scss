@@ -1,0 +1,73 @@
+
+    .banner {
+        width: 100%;
+        background: url(assets/hero-bg.jpg);
+        background-size: cover;
+        background-position: center left;
+        
+    }
+
+    .section-intro {
+        color: $light-text;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        @media (min-width: 50em) {
+            flex-direction: row-reverse;
+            justify-content: space-around;
+            align-items: center;
+            padding-top: 2em;
+            padding-bottom: 2em;
+        }
+
+        img {
+            height: 45vh;
+            
+
+            @media (max-width: 30em) {
+                height: 30vw;
+            }
+
+            @media (max-width: 40em) {
+                height: 40vw;
+            }
+        }
+
+        h1 {
+            text-align: center;
+
+            @media (max-width: 27.5em) {
+                margin-top: 2em;
+            }
+    
+            @media (min-width: 31.25em) {
+                font-size: 5.5vw;
+            }
+    
+            @media (min-width: 50em) {
+                text-align: left;
+                font-size: 4vw;
+            }
+    
+            span {
+                display: block;
+                font-size: 1.25rem;
+    
+                @media (min-width: 31.25em) {
+                    font-size: 3.5vw;
+                }
+    
+                @media (min-width: 50em) {
+                    font-size: 2.5vw;
+                }
+            }
+        }
+    }
+
+    .mdrop {
+        img {
+            margin-bottom: 2em;
+        }
+    }

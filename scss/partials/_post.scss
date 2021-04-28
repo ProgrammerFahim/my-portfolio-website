@@ -1,0 +1,46 @@
+.post {
+    color: $dark-blue;
+    width: 80%;
+
+    @media (max-width: 500px) {
+        width: 90%;
+    }
+
+    max-width: 800px;
+    border: 1px solid #777;
+    border-radius: 5px;
+    margin: 3em auto;
+
+    img {
+        width: 100%;
+    }
+
+    h1, h2 {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    h1{
+        font-weight: $fw-heavy-m;
+        font-size: 2rem;
+        margin-top: 1em;
+        margin-bottom: .3em;
+    }
+
+    h2 {
+        font-weight: $fw-imp-m;
+        font-size: 1.2rem;
+        color: $blue;
+    }
+
+    .main-content {
+        width: 90%;
+        margin: 2em auto;
+
+        p {
+            width: 100%;
+        }
+    }
+}

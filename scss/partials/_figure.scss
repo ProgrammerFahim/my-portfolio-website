@@ -1,0 +1,60 @@
+figcaption {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 1em;
+
+
+	.entry-desc {
+		width: 90%;
+	}
+
+	h2 {
+		font-size: 1.25rem;
+	}
+
+	p {
+		font-size: 0.875rem;
+	}
+
+	a {
+		text-decoration: none;	
+		text-transform: uppercase;
+		font-size: 0.875rem;
+		// margin-top: 1em;
+	}
+
+	h2, p, a {
+		color: $light-text;
+	}
+}
+
+figure {
+	height: 100%;
+	width: 70%;
+	max-width: 30em;
+	background-color: $dark-blue;
+	border: 2px solid $accent;
+	
+	@media (min-width: 27.5em) {
+		width: 50vw;
+	}
+
+    @media (min-width: 35em) {
+        width: 40vw;
+    }
+
+    @media (min-width: 44em) {
+        width: 30vw;
+    }
+	
+	@media (min-width: 62.5em) {
+		max-width: 240px;
+		width: 25vw;
+	}
+
+	img {
+		width: 100%;
+	}
+}

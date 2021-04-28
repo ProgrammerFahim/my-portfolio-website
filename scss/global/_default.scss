@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $ff-main;
+}
+
+$nav-min-height: 60px;
+$nav-height: 10vh;
+$nav-max-height: 100px;
+
+.hide {
+    display: none;
+}

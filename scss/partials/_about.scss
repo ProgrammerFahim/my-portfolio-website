@@ -1,0 +1,21 @@
+.bio {
+    width: 90%;
+    max-width: 800px;
+
+    @media (min-width: 500px) {
+        width: 80%;
+    }
+
+    margin: 2em auto 5em auto;
+
+    .h1 {
+        font-size: 1.5rem;
+        border-bottom: 2px solid $accent;
+        padding: .5em;
+    }
+
+    .p {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
