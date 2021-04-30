@@ -33,10 +33,10 @@ const Programming = () => {
         <SectionHeading title="Articles"/>,
         <section className="all-posts">
             {progs && progs.map((post) => (
-                <figure class="blog-entry">
+                <figure className="blog-entry">
                     <img src={post.mainImage.asset.url} alt={post.mainImage.alt} />
                     <figcaption>
-                        <div class="entry-desc">
+                        <div className="entry-desc">
                             <h2>{post.title}</h2>
                             <p>{post.subtitle}</p>
                         </div>
