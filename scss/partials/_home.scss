@@ -137,6 +137,10 @@
                 grid-row: 3/4;
             }
         }
+
+        a {
+            font-weight: $fw-imp-m;
+        }
     
     }
 
@@ -201,6 +205,9 @@
             justify-items: start;
         }
 
+        a {
+            font-weight: $fw-imp-m;
+        }
     }
 
     .programming-ad {
@@ -268,6 +275,10 @@
             grid-auto-rows: auto;
             justify-items: end;
             align-items: center;
+        }
+
+        a {
+            font-weight: $fw-imp-m;
         }
     }
 
