@@ -70,9 +70,12 @@ body {
     @media (min-width: 27.5em) {
       .home .intro img {
         width: 40vw; } }
-    @media (min-width: 35em) {
+    @media (min-width: 50em) {
       .home .intro img {
         width: 30vw; } }
+  @media (min-width: 35em) {
+    .home .intro {
+      min-height: 30em; } }
   @media (min-width: 35em) {
     .home .intro {
       flex-direction: row-reverse;
@@ -209,7 +212,8 @@ body {
   justify-content: space-around;
   align-items: center;
   padding-top: 2em;
-  padding-bottom: 2em; }
+  padding-bottom: 2em;
+  color: #061923; }
   .home .programming-ad p {
     width: 80%; }
   @media (min-width: 50em) {
@@ -403,7 +407,8 @@ footer {
       padding-top: 2em;
       padding-bottom: 2em; } }
   .section-intro img {
-    height: 45vh; }
+    height: 45vh;
+    max-height: 20em; }
     @media (max-width: 30em) {
       .section-intro img {
         height: 30vw; } }
@@ -505,6 +510,7 @@ footer {
 .bio {
   width: 90%;
   max-width: 800px;
+  color: #061923;
   margin: 2em auto 5em auto; }
   @media (min-width: 500px) {
     .bio {

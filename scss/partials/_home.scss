@@ -13,9 +13,13 @@
                 width: 40vw;
             }
 
-            @media (min-width: 35em) {
+            @media (min-width: 50em) {
                 width: 30vw;
             }
+        }
+
+        @media (min-width: 35em) {
+            min-height: 30em;
         }
 
         display: flex;
@@ -217,6 +221,7 @@
         align-items: center;
         padding-top: 2em;
         padding-bottom: 2em;
+        color: $dark-blue;
     
         p {
             width: 80%;

@@ -7,9 +7,9 @@ import Blog from "./components/Blog";
 import ProgrammingPost from "./components/ProgrammingPost";
 import Programming from "./components/Programming";
 import './App.css';
-import insta from './assets/insta.svg';
-import twitter from './assets/twitter.svg';
-import fb from './assets/fb.svg';
+import insta from './assets/instagram-icon.ico';
+import twitter from './assets/twitter-icon.ico';
+import fb from './assets/facebook-icon.ico';
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
           <a href="https://www.facebook.com/fahim.faisal.334"><img class="social-icon" src={fb} alt="Facebook"/></a>
           <a href="https://twitter.com/ProgrammerFahim"><img class="social-icon" src={twitter} alt="Twitter" /></a>
         </div>
-        <small>Copyright 2021</small>  
+        <small>Copyright © 2021</small>  
       </footer>
     </BrowserRouter>
   );
