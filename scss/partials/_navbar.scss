@@ -45,6 +45,11 @@
     @media (min-width: 50em) {
         font-size: 1.1rem;
     }
+
+    &:hover {
+        background: #AAAAAA;
+        color: $dark-blue;
+    }
 }
 
 .navlink_a {

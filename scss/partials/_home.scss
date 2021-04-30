@@ -145,6 +145,10 @@
         a {
             font-weight: $fw-imp-m;
         }
+
+        > a:hover {
+            background: $light-text;
+        }
     
     }
 
@@ -211,6 +215,10 @@
 
         a {
             font-weight: $fw-imp-m;
+        }
+
+        > a:hover {
+            background: $light-text;
         }
     }
 
@@ -284,6 +292,10 @@
 
         a {
             font-weight: $fw-imp-m;
+        }
+
+        > a:hover {
+            background: $light-text;
         }
     }
 

@@ -50,6 +50,9 @@ body {
   @media (min-width: 50em) {
     .navlink {
       font-size: 1.1rem; } }
+  .navlink:hover {
+    background: #AAAAAA;
+    color: #061923; }
 
 .navlink_a {
   background: #DDDDDD;
@@ -160,6 +163,8 @@ body {
       grid-row: 3/4; } }
   .home .about-me a {
     font-weight: 600; }
+  .home .about-me > a:hover {
+    background: #DDDDDD; }
 
 .home .blog-ad {
   display: flex;
@@ -205,6 +210,8 @@ body {
       justify-items: start; } }
   .home .blog-ad a {
     font-weight: 600; }
+  .home .blog-ad > a:hover {
+    background: #DDDDDD; }
 
 .home .programming-ad {
   display: flex;
@@ -254,6 +261,8 @@ body {
       align-items: center; } }
   .home .programming-ad a {
     font-weight: 600; }
+  .home .programming-ad > a:hover {
+    background: #DDDDDD; }
 
 .home .quote {
   background-color: #E8F7EE;
@@ -325,7 +334,8 @@ figure {
   background-color: #061923;
   border: 2px solid #E84A4A;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  transition: transform 500ms ease; }
   @media (min-width: 27.5em) {
     figure {
       width: 50vw; } }
@@ -344,6 +354,9 @@ figure {
     flex: 0 1 auto; }
   figure figcaption {
     flex: 1 1 auto; }
+
+figure:hover {
+  transform: scale(1.05); }
 
 footer {
   background-color: #061923;
