@@ -63,9 +63,9 @@ const home = () => {
                         <div className="entry-desc">
                             <h2>The <span>exec</span> functions</h2>
                             <p>A primer on the various forms of the <em>exec</em>
-                            family of functions, and when to use each of them.</p>
+                            {" "}family of functions, and when to use each of them.</p>
                         </div>
-                        <Link to="/programming/dup-function-calls">Read Article</Link>
+                        <Link to="/programming/the-exec-functions">Read Article</Link>
                     </figcaption>	
                 </figure>
                 <Link className="btn" to="/programming">Check out the programming section!</Link>	

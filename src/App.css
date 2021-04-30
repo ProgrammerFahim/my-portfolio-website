@@ -309,8 +309,8 @@ figcaption {
     color: #DDDDDD; }
 
 figure {
-  height: 90%;
-  width: 80%;
+  height: 95%;
+  width: 60vw;
   max-width: 30em;
   background-color: #061923;
   border: 2px solid #E84A4A;
@@ -503,10 +503,11 @@ footer {
   @media (min-width: 500px) {
     .bio {
       width: 80%; } }
-  .bio .h1 {
+  .bio h1 {
     font-size: 1.5rem;
-    border-bottom: 2px solid #E84A4A;
+    border-bottom: 1px solid #061923;
     padding: .5em; }
-  .bio .p {
+  .bio p {
     width: 90%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    line-height: 1.5; }
